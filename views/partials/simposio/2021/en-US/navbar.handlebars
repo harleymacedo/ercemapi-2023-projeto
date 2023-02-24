@@ -1,0 +1,95 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="/simposio/2021/">
+        <img src="/img/logo-educomp.png" style="height: 1.2rem; padding-left: 0.6em;"/>
+      </a>
+      <a href="http://www.sbc.org.br" target="_blank">
+        <!--<span style="color: white; padding-left: 1.6em;"> 
+          Realização 
+        </span>-->
+        <img src="/img/sbc.jpg" style="height: 2.5rem; padding-left: 0.6em;"/> 
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if about}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if topics}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/topics-of-interest">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if papers}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/call-for-contributions">Call for Contributions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if dates}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/dates">Dates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if shedule}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/program">Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if forlic}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/forlic">ForLic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if registrations}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/registrations">Registration</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link js-scroll-trigger dropdown-toggle 
+                {{~#if team}}
+                  active
+                {{/if}}
+            ">Team</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/en-US/symposium/2021/team">Organizing Committee</a>
+              <a class="dropdown-item" href="/en-US/symposium/2021/program-committee">Program Committee</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger 
+            {{~#if contact}}
+              active
+            {{/if}}
+            " href="/en-US/symposium/2021/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/simposio/2021">
+              <img style="height: 25px; width: 25px" title="Site em Português (BR)"
+              src="https://img.icons8.com/color/48/000000/brazil.png"/>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
