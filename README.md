@@ -1,5 +1,7 @@
-# educompbrasil-site
-Site do EduComp Brasil.
+<h2>Site para o evento acadêmico e científico ERCEMAPI 2023<h2>
 
-# Utilizando tecnologias Nodejs e Expressjs
-Com design utilizando componentes Bootstrap
+<h3>Funcionalidade:<h3>
+
+<h3>Equipe de desenvolvimento:<h3>
+
+<h3>Direitos autorais:<h3>

@@ -5,7 +5,7 @@ const methodOverride = require('method-override')
 const bodyParser = require('body-parser')
 const emailServer = require('./models/emailServer')
 const PDFDocument = require('pdfkit')
-const { GoogleSpreadsheet } = require('google-spreadsheet')
+//const { GoogleSpreadsheet } = require('google-spreadsheet')
 //const creds = require('./educomp-novo-certificado.json')
 const fs = require('fs')
 
