@@ -8,7 +8,7 @@ const PDFDocument = require('pdfkit')
 const fs = require('fs')
 
 //Routes
-var educomp_2021_en_us_main = require('./routes/simposio/2021/en-US/main'); //Routes en-US
+//var educomp_2021_en_us_main = require('./routes/simposio/2021/en-US/main'); //Routes en-US
 
 //Educomp 2023
 var educomp_2023_main = require('./routes/simposio/2023/pt-BR/main');
