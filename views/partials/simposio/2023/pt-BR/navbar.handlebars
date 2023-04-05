@@ -22,7 +22,7 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
                 {{~#if sobre}}
                   active
                 {{/if}}
-            ">PRINCIPAL</a>
+            ">Principal</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/simposio/2023/">
                 Sobre o evento
@@ -31,9 +31,9 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
                 Sobre a SBC
               </a>
               <hr class="dropdown-divider">
-              <a class="dropdown-item" href="/simposio/2023/programacao/esquenta/1">
+              {{!-- <a class="dropdown-item" href="/simposio/2023/programacao/esquenta/1">
                 Esquenta I
-              </a>
+              </a> --}}
             </div>            
           </li>
 
@@ -42,7 +42,7 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
                 {{~#if evento}}
                   active
                 {{/if}}
-            ">CHAMADA</a>
+            ">Chamada</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/simposio/2023/trabalhos/topicos-de-interesse">
                 Tópicos de Interesse
@@ -54,12 +54,12 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
               <a class="dropdown-item" href="/simposio/2023/trabalhos/chamada">
                 Artigos Completos
               </a>
-              <a class="dropdown-item" href="/simposio/2023/trabalhos/lab-ideias">
+              {{!-- <a class="dropdown-item" href="/simposio/2023/trabalhos/lab-ideias">
                 Laboratório de Ideias
-              </a>
-              <a class="dropdown-item" href="/simposio/2023/trabalhos/wtd">
+              </a> --}}
+              {{!-- <a class="dropdown-item" href="/simposio/2023/trabalhos/wtd">
                 WTD-EduComp
-              </a>
+              </a> --}}
               <hr class="dropdown-divider">
                <a class="dropdown-item" href="/simposio/2023/trabalhos/minicursos">
                 Minicursos
@@ -93,7 +93,7 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
             {{~#if forlic}}
               active
             {{/if}}
-            " href="/simposio/2023/forlic">FORLIC</a>
+            " href="/simposio/2023/forlic">Datas</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -101,7 +101,7 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
                 {{~#if equipe}}
                   active
                 {{/if}}
-            ">EQUIPE</a>
+            ">Equipe</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/simposio/2023/equipe/comissao-organizadora">Comissão Organizadora</a>
               <a class="dropdown-item" href="/simposio/2023/equipe/comite-programa">Comitê de Programa</a>
@@ -265,11 +265,11 @@ style="box-shadow: 0.25em 0.25em 0.25em 0.25em rgb(202, 202, 202); ">
         <a 
           class="
             btn 
-            nav-link bg-primary text-white 
+            nav-link text-white 
             js-scroll-trigger p-2 px-4" 
           href="/simposio/2023/inscricoes" 
-          style="font-size: 1em; font-weight: normal; font-family: 'Inter', sans-serif; border-radius: 1em;">
-          INSCRIÇÕES
+          style="font-size: 1em; font-weight: normal; font-family: 'Inter', sans-serif; border-radius: 1em; background-color: blue">
+          Inscrições
         </a>
       </div>
     </div>
