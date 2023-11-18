@@ -7,9 +7,10 @@ const PDFDocument = require('pdfkit')
 const fs = require('fs')
 
 //Educomp 2023
-var educomp_2023_main = require('./routes/main');
-var educomp_2023_equipe = require('./routes/equipe');
-var educomp_2023_trabalhos = require('./routes/trabalhos');
+var educomp_2023_main = require('./routes/main')
+var educomp_2023_equipe = require('./routes/equipe')
+var educomp_2023_trabalhos = require('./routes/trabalhos')
+var educomp_2023_programacao = require('./routes/programacao')
 
 //Engine View
 app.engine('handlebars', handlebars({defaultLayout: 'main'}) )
@@ -33,6 +34,8 @@ app.get('/trabalhos/minicursos', educomp_2023_trabalhos.minicursos)
 app.get('/trabalhos/aceitos', educomp_2023_trabalhos.aceitos)
 app.get('/equipe/comissao-organizadora', educomp_2023_equipe.comissao_organizadora)
 app.get('/equipe/comite-programa', educomp_2023_equipe.comite_programa)
+app.get('/programacao/programacao-minicursos', educomp_2023_programacao.programacao_minicursos)
+app.get('/programacao/programacao-oficinas', educomp_2023_programacao.programacao_oficinas)
 
 //Worker do servidor
 var porta = process.env.PORT || 3000

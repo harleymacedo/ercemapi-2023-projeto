@@ -18,19 +18,42 @@
         <div class="collapse navbar-collapse m0" id="navbarResponsive">
             <ul class="navbar-nav">
 
-                <!-- Sobre -->
+                <!-- Principal -->
                 <li class="nav-item dropdown">
                     <a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link js-scroll-trigger dropdown-toggle
-                {{~#if sobre}}
-                  active
-                {{/if}}
-            ">Principal</a>
+                    {{~#if sobre}}
+                        active
+                    {{/if}}
+                    ">Principal</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/sobre">
                             Sobre o evento
                         </a>
                         <a class="dropdown-item" href="/sobre-sbc">
                             Sobre a SBC
+                        </a>
+                    </div>
+                </li>
+
+                <!-- Programação -->
+                <li class="nav-item dropdown">
+                    <a data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="nav-link js-scroll-trigger dropdown-toggle
+                    {{~#if programacao}}
+                        active
+                    {{/if}}
+                    ">Programação</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/programacao/programacao-minicursos">
+                            Minicursos
+                        </a>
+                        <a class="dropdown-item" href="/programacao/programacao-oficinas">
+                            Oficinas
+                        </a>
+                        <a class="dropdown-item" href="/programacao/programacao-palestras">
+                            Palestras
+                        </a>
+                        <a class="dropdown-item" href="/programacao/programacao-sessoes-tecnicas">
+                            Sessões Técnicas
                         </a>
                     </div>
                 </li>
