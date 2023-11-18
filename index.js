@@ -36,6 +36,8 @@ app.get('/equipe/comissao-organizadora', educomp_2023_equipe.comissao_organizado
 app.get('/equipe/comite-programa', educomp_2023_equipe.comite_programa)
 app.get('/programacao/programacao-minicursos', educomp_2023_programacao.programacao_minicursos)
 app.get('/programacao/programacao-oficinas', educomp_2023_programacao.programacao_oficinas)
+app.get('/programacao/programacao-palestras', educomp_2023_programacao.programacao_palestras)
+app.get('/programacao/programacao-sessoes-tecnicas', educomp_2023_programacao.programacao_sessoes_tecnicas)
 
 //Worker do servidor
 var porta = process.env.PORT || 3000
