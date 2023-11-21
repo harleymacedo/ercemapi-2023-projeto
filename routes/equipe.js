@@ -25,3 +25,17 @@ exports.comite_programa = function (req, res) {
         }
     ) 
 };
+
+exports.comite_cientifico = function (req, res) { 
+    res.render('simposio/2023/pt-BR/equipe/comite-cientifico', 
+        {
+            layout: 'simposio/2023/pt-BR/layout', 
+            equipe: true,
+            titulo: 'Comitê Científico',
+            header: {
+                endereco: 'comite-cientifico',
+                descricao: 'Faixa de título do comitê científico.'
+            }
+        }
+    ) 
+};
